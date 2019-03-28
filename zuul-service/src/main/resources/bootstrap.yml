@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    reservation-service:
+      path: /routeme1/**
+      url: http://info.thy.com
+  DebugFilter:
+      post:
+        enable: true
